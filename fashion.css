@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+
+    height: 70px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.header svg{
+    width: 30px;
+    height: 30px;
+}
+
+.sectionOne{
+    height: 667px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.sectionOne img{
+    height: 400px;
+width: 100%;
+
+}
+
+.sectionOneh1{
+    height: 400px;
+    position: relative;
+    color: white;
+    bottom: 480px;
+    left: 440px;
+    padding: 40px;
+    margin: 30p;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    width: 400px;
+    font-weight: 900;
+    justify-content: center;
+    border: 20px solid #f1c50e;
+}
+
+.sectionOneh1 h1{
+    font-weight: 600;
+}
+
+.sectionTwoButton{
+    position: relative;
+    bottom: 230px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwoButton-button{
+    background-color: black;
+    color: #f1c50e;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 290px;
+    height: 60px;
+    /* letter-spacing: 2px; */
+}
+
+.sectionThree{
+    background-color: #f2f2f2;
+    height: 740px;
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.sectionThreeOne{
+    width: 100%;
+    display: flex;
+}
+
+.sectionthreeImage{
+    margin-top: 30px;
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionthreeContent{
+    width: 70%;
+}
+
+
+.u-container-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-container-layout svg{
+    width: 80px;
+    fill:#f1c50e;
+    background: black;
+}
+
+
+.u-align-center{
+width: 170px;
+text-align: center;
+padding: 2px;
+font-weight: 600;
+line-height: 22px;
+}
+
+.lower{
+    display: flex;
+    margin: 40px;
+    padding: 30px;
+    position: relative;
+    right: 55px;
+}
+
+.upper{
+    margin-top: 150px;
+}
+
+.architec{
+    font-size: 1.5rem;
+}
+
+.para{
+    width: 80%;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.sampleborder{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: 880px;
+    font-weight: 500;
+    line-height: 26px;
+    border: 20px solid #f1c50e;
+    margin-right: 50px;
+}
+
+.sampleborder h1{
+    font-size: 20px;
+}
+
+.sample{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: 880px;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: white;
+}
+
+.sample h1{
+    font-size: 20px;
+}

@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .first-one {
+    /* align-items: center; */
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 0 85px;
+  }
+  
+  /* .width {
+    flex-direction: column;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+  .header-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  li {
+    font: open Sans;
+    font-weight: 600;
+    list-style: none;
+    size: 16px;
+  }
+  
+  .header-links button {
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgba(10, 38, 64, 1);
+  
+    border-radius: 24px;
+  }
+  
+  .section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 423px;
+  }
+  
+  .section-one-content {
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .section-one-img {
+    gap: 1.5rem;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  /* #firstImg {
+    margin-right: 7px;
+  }
+  
+  .two-img-section-two {
+    display: flex;
+    gap: 2rem;
+  } */
+  
+  .content-one {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  
+  .para {
+    margin-top: 20px;
+    color: rgba(119, 119, 119, 1);
+  
+    margin-right: 50px;
+  }
+  
+  .second-button {
+    display: flex;
+    gap: 1rem;
+  margin-top: 20px;
+  }
+  
+  .buy-temp button {
+    width: 247px;
+    height: 60px;
+    border-radius: 56px;
+    background: rgba(10, 38, 64, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .explor button {
+    width: 187px;
+    height: 60px;
+    border-radius: 56px;
+    background-color: white;
+    border: 2px solid rgba(10, 38, 64, 1);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .two-img-section-two{
+    display: flex;
+  }
+  
+  /* .third-section {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+    height: 300px;
+    align-items: center;
+  } */
+  
+  #presto {
+    height: 30px;
+  }
+  
+  #margin {
+    margin-right: 7px;
+  }
+  
+  .img-third {
+    width: 11%;
+    display: flex;
+    gap: 0.2rem;
+  }
+  
+  #img-width {
+    width: 70px;
+    height: 30px;
+  }
+  
+  .img-third .img-logo {
+    height: 20px;
+  }
+  
+  .section-second {
+    height: 926px;
+    width: 100%;
+    background: rgba(10, 38, 64, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .our-service-content {
+    text-align: center;
+  }
+  
+  .our-service {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+  
+  .service-h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .boxes {
+    gap: 5rem;
+    display: flex;
+  }
+  
+  /* .section-one-img {
+    margin: 0 0 0 auto;
+  }
+  
+  .section-one-img {
+    padding-left: 20px;
+  } */
+  
+  
+  
+  .section-one-img {
+    margin-top: 20px; /* Added margin top for spacing */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between; /* Space between images */
+  }
+  
+  .first-img-section-two,
+  .two-img-section-two {
+    flex: 1; /* Make images take equal space */
+    min-width: 45%; /* Minimum width for images */
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+  
+  .first-img img,
+  .second-img img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+  }
+  
+  
+  .third-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    /* align-content: center; */
+  }
+  
+  .img-third {
+    padding: 50px;
+  }
+  
+  /* .section-one-img {
+    margin: 0 0 0 auto;
+    padding-left: 20px;
+  } */
+  
+  .third-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    /* align-content: center; */
+  }
+  
+  .img-third {
+    padding: 50px;
+  }
+  
+  .img-third {
+  }
+  
+  button {
+  }
+  
+  .buy-temp button {
+    padding: 11px;
+  }
+  
+  .buy-temp button {
+    /* padding: 20px; */
+  }
+  
+  
+  
+  
+  @media (max-width: 1060px) {
+    .header-links button, .buy-temp button, .explor button {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    
+    .content-one {
+        font-size: 37px;
+    }
+  
+    .section-one {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .section-one-content {
+        width: 80%;
+        text-align: center;
+    }
+  
+    .section-one-img {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 788px) {
+    .header-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
+  
+  
+  
+  
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .first-one {
+      width: 100%;
+      padding: 0 15px; /* Adjusted padding for better mobile view */
+  }
+  
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; /* Added flex-wrap for wrapping in smaller screens */
+  }
+  
+  .logo {
+      display: flex;
+      gap: 10px; /* Increased gap for better spacing */
+      flex-wrap: wrap; /* Added flex-wrap for wrapping in smaller screens */
+  }
+  
+  ul {
+      display: flex;
+      gap: 10px; /* Increased gap for better spacing */
+      flex-wrap: wrap; /* Added flex-wrap for wrapping in smaller screens */
+  }
+  
+  .header-links {
+      display: flex;
+      gap: 10px; /* Increased gap for better spacing */
+      align-items: center;
+      flex-wrap: wrap; /* Added flex-wrap for wrapping in smaller screens */
+  }
+  
+  li {
+      font-size: 14px; /* Reduced font size for better readability on mobile */
+      font-weight: 600;
+      list-style: none;
+  }
+  
+  .header-links button {
+      height: 30px; /* Reduced button height for better mobile view */
+      width: auto; /* Made button width auto to fit content */
+      padding: 0 10px; /* Adjusted padding for better button appearance on mobile */
+      font-size: 14px; /* Reduced font size for better readability on mobile */
+  }
+  
+  .section-one {
+      display: flex;
+      flex-direction: column; /* Changed to column for better stacking in mobile view */
+  }
+  
+  .section-one-content {
+      padding-right: 0; /* Removed right padding */
+      margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+  
+  .content-one {
+      font-size: 24px; /* Reduced font size for better readability on mobile */
+  }
+  
+  .para {
+      font-size: 12px; /* Reduced font size for better readability on mobile */
+  }
+  
+  .second-button {
+      flex-direction: column; /* Changed to column for better stacking in mobile view */
+      gap: 10px; /* Increased gap for better spacing */
+  }
+  
+  .buy-temp button,
+  .explor button {
+      width: 100%; /* Made buttons take full width */
+  }
+  
+  .section-one-img {
+      margin-top: 20px; /* Added margin top for spacing */
+  }
+  
+  .img-third {
+      margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+  
+  @media screen and (max-width: 408px) {
+      .first-one {
+          padding: 0 10px; /* Adjusted padding for better mobile view */
+      }
+  
+      .header {
+          flex-direction: column; /* Changed to column for better stacking in mobile view */
+          align-items: center; /* Centered items in mobile view */
+      }
+  
+      .logo,
+      ul,
+      .header-links {
+          flex-direction: column; /* Changed to column for better stacking in mobile view */
+          gap: 10px; /* Increased gap for better spacing */
+          align-items: center; /* Centered items in mobile view */
+      }
+  
+      li {
+          font-size: 14px; /* Reduced font size for better readability on mobile */
+      }
+  
+      .header-links button {
+          height: 30px; /* Reduced button height for better mobile view */
+          width: auto; /* Made button width auto to fit content */
+          padding: 0 10px; /* Adjusted padding for better button appearance on mobile */
+          font-size: 14px; /* Reduced font size for better readability on mobile */
+      }
+  
+      .section-one {
+          padding: 0 10px; /* Adjusted padding for better mobile view */
+      }
+  
+      .section-one-content {
+          margin-bottom: 20px; /* Added margin bottom for spacing */
+      }
+  
+      .content-one {
+          font-size: 20px; /* Reduced font size for better readability on mobile */
+      }
+  
+      .para {
+          font-size: 12px; /* Reduced font size for better readability on mobile */
+      }
+  
+      .second-button {
+          flex-direction: column; /* Changed to column for better stacking in mobile view */
+          gap: 10px; /* Increased gap for better spacing */
+      }
+  
+      .buy-temp button,
+      .explor button {
+          width: 100%; /* Made buttons take full width */
+      }
+  
+  
+      .section-one-img {
+        flex-direction: column; /* Stack images vertically on mobile */
+    }
+  
+    .first-img-section-two,
+    .two-img-section-two {
+        margin-bottom: 10px; /* Reduced margin for spacing */
+        min-width: 100%; /* Full width for images on mobile */
+    }
+  
+  
+  }
+  
+  
+  
+  

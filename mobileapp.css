@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Roboto", "Arial", "sans-serif"; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 80px;
+    align-items: center;
+}
+
+.dashboard svg {
+    width: 20px;
+
+}
+
+.dashboard {
+    height: 30px;
+    max-width: 50%;
+    display: flex;
+    display: flex;
+    margin-left: 900px;
+}
+
+.logo {
+    max-width: 50%;
+    display: flex;
+    justify-content: start;
+
+}
+
+.logo img {
+    width: 60px;
+    height: 30px;
+}
+
+/* .sectionOne {
+
+
+    background-image: url('	https://images02.nicepagecdn.com/c461c07a441a5d220e8feb1a/d7dc502250955d50b21bd3f8/ad-min.jpg');
+    background-position: 33.19% 50%;
+    background-color: white;
+    height: 100vh;
+
+    background-size: 100% 100%;
+
+} */
+
+.sectionOne {
+    display: flex;
+    width: 100%;
+    height: 150vh;
+}
+
+.sectionOneright {
+    width: 60%;
+    background-image: url('	https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/49243501dd855056bb5024ea/fgfgfg5t.jpg');
+}
+
+.sectionOneLeft {
+    width: 100%;
+    background-position: 30% 100%;
+    /* height: 100vh; */
+
+    background-image: url('	https://images02.nicepagecdn.com/c461c07a441a5d220e8feb1a/d7dc502250955d50b21bd3f8/ad-min.jpg');
+}
+
+.sectionOneLeft img {
+    width: 500px;
+    height: 30px;
+}
+
+
+.sectionOneh1 {
+    margin: 20px;
+}
+
+.sectionOne h1 {
+    color: white;
+    font-size: 4rem;
+    padding: 101px;
+}
+
+
+
+.fiveimg {
+    display: flex;
+    justify-content: space;
+}
+
+.two{
+    margin: 20px;
+}
+
+.one{
+    margin: 20px;
+}
+
+.one,
+.two {
+    flex-basis: 48%;
+}
+
+/* .one,
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 48%;
+} */
+
+
+.fiveimgone,
+.fivesecondimgone {
+    padding: 40px;
+    margin: 30px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 5px 5px 20px 0px rgba(45, 41, 51, 0.4);
+}
+
+.fiveimgone img,
+.fivesecondimgone img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fivesecondimgone{
+    
+}
+
+.u-section-1 .u-icon-1 {
+    height: 74px;
+    width: 74px;
+    background-image: none;
+    margin: 0 auto;
+    color: #a37fdf !important;
+    padding: 15px;
+}
+
+.fiveimgone svg{
+    height: 20px;
+    width: 100px;
+}

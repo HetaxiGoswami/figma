@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Oswald, sans-serif !important;
+}
+
+.sectionOne {
+
+
+    background-image: url('https://images01.nicepage.com/c9/a0/c9a0e2a15dfcb5c578d43afd3deefc81.jpeg');
+    background-color: white;
+    height: 100vh;
+    /* width: ; */
+    background-size: 100% 100%;
+    /* object-fit: cover; */
+}
+
+.sectionOne h2 {
+    margin-left: 30px;
+    color: white;
+    font-size: 50px;
+    font-weight: 00;
+    font-family: Oswald, sans-serif !important;
+
+}
+
+.layoutrow svg{
+display: flex;
+}
+
+.layoutrow {                                       
+
+    width: 10px;
+    height: 40px;
+    fill: white;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

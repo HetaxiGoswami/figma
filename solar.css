@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Roboto", "Arial", "sans-serif"; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 80px;
+    align-items: center;
+}
+
+.dashboard svg {
+    width: 20px;
+
+}
+
+.dashboard {
+    height: 30px;
+    max-width: 50%;
+    display: flex;
+    display: flex;
+    margin-left: 900px;
+}
+
+.logo {
+    max-width: 50%;
+    display: flex;
+    justify-content: start;
+
+}
+
+.logo img {
+    width: 60px;
+    height: 30px;
+}
+
+
+.sectionOne{
+    background-image: url('https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/26193-min.jpg');
+    width: 100%;
+    background-position: 10% 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
